@@ -1,0 +1,344 @@
+
+
+
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    </head>
+
+
+	
+	<br>
+	<table border=1>
+		<caption>시도별 인구 변동 현황 [단위 : 천명]</caption>
+			<thead>
+			<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th data-id='t104102_h_0' data-index='0' data-name='td_104102_cc_0' class="tc" data-headers='td_104102_cc_0'  rowspan='1'>2009</th>
+<th data-id='t104102_h_1' data-index='1' data-name='td_104102_cc_1' class="tc" data-headers='td_104102_cc_1'  rowspan='1'>2010</th>
+<th data-id='t104102_h_2' data-index='2' data-name='td_104102_cc_2' class="tc" data-headers='td_104102_cc_2'  rowspan='1'>2011</th>
+<th data-id='t104102_h_3' data-index='3' data-name='td_104102_cc_3' class="tc" data-headers='td_104102_cc_3'  rowspan='1'>2012</th>
+<th data-id='t104102_h_4' data-index='4' data-name='td_104102_cc_4' class="tc" data-headers='td_104102_cc_4'  rowspan='1'>2013</th>
+<th data-id='t104102_h_5' data-index='5' data-name='td_104102_cc_5' class="tc" data-headers='td_104102_cc_5'  rowspan='1'>2014</th>
+<th data-id='t104102_h_6' data-index='6' data-name='td_104102_cc_6' class="tc" data-headers='td_104102_cc_6'  rowspan='1'>2015</th>
+<th data-id='t104102_h_7' data-index='7' data-name='td_104102_cc_7' class="tc" data-headers='td_104102_cc_7'  rowspan='1'>2016</th>
+<th data-id='t104102_h_8' data-index='8' data-name='td_104102_cc_8' class="tc" data-headers='td_104102_cc_8'  rowspan='1'>2017</th>
+<th data-id='t104102_h_9' data-index='9' data-name='td_104102_cc_9' class="tc" data-headers='td_104102_cc_9'  rowspan='1'>2018</th>
+</tr>
+			</thead>
+			<tbody>
+	
+				<tr>
+				
+				<th class="tl" data-id='t104102_c1_0' colspan='1' rowspan='1'>계</th>
+	<td headers='t104102_h_0 t104102_c1_0'>49,773</td>
+<td headers='t104102_h_1 t104102_c1_0'>50,515</td>
+<td headers='t104102_h_2 t104102_c1_0'>50,734</td>
+<td headers='t104102_h_3 t104102_c1_0'>50,948</td>
+<td headers='t104102_h_4 t104102_c1_0'>51,141</td>
+<td headers='t104102_h_5 t104102_c1_0'>51,328</td>
+<td headers='t104102_h_6 t104102_c1_0'>51,529</td>
+<td headers='t104102_h_7 t104102_c1_0'>51,696</td>
+<td headers='t104102_h_8 t104102_c1_0'>51,778</td>
+<td headers='t104102_h_9 t104102_c1_0'>51,826</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_1' colspan='1' rowspan='1'>서울</th>
+	<td headers='t104102_h_0 t104102_c1_1'>10,208</td>
+<td headers='t104102_h_1 t104102_c1_1'>10,312</td>
+<td headers='t104102_h_2 t104102_c1_1'>10,250</td>
+<td headers='t104102_h_3 t104102_c1_1'>10,195</td>
+<td headers='t104102_h_4 t104102_c1_1'>10,144</td>
+<td headers='t104102_h_5 t104102_c1_1'>10,103</td>
+<td headers='t104102_h_6 t104102_c1_1'>10,022</td>
+<td headers='t104102_h_7 t104102_c1_1'>9,930</td>
+<td headers='t104102_h_8 t104102_c1_1'>9,857</td>
+<td headers='t104102_h_9 t104102_c1_1'>9,766</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_2' colspan='1' rowspan='1'>부산</th>
+	<td headers='t104102_h_0 t104102_c1_2'>3,543</td>
+<td headers='t104102_h_1 t104102_c1_2'>3,568</td>
+<td headers='t104102_h_2 t104102_c1_2'>3,551</td>
+<td headers='t104102_h_3 t104102_c1_2'>3,538</td>
+<td headers='t104102_h_4 t104102_c1_2'>3,528</td>
+<td headers='t104102_h_5 t104102_c1_2'>3,519</td>
+<td headers='t104102_h_6 t104102_c1_2'>3,513</td>
+<td headers='t104102_h_7 t104102_c1_2'>3,498</td>
+<td headers='t104102_h_8 t104102_c1_2'>3,470</td>
+<td headers='t104102_h_9 t104102_c1_2'>3,441</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_3' colspan='1' rowspan='1'>대구</th>
+	<td headers='t104102_h_0 t104102_c1_3'>2,489</td>
+<td headers='t104102_h_1 t104102_c1_3'>2,512</td>
+<td headers='t104102_h_2 t104102_c1_3'>2,508</td>
+<td headers='t104102_h_3 t104102_c1_3'>2,506</td>
+<td headers='t104102_h_4 t104102_c1_3'>2,502</td>
+<td headers='t104102_h_5 t104102_c1_3'>2,493</td>
+<td headers='t104102_h_6 t104102_c1_3'>2,487</td>
+<td headers='t104102_h_7 t104102_c1_3'>2,484</td>
+<td headers='t104102_h_8 t104102_c1_3'>2,475</td>
+<td headers='t104102_h_9 t104102_c1_3'>2,462</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_4' colspan='1' rowspan='1'>인천</th>
+	<td headers='t104102_h_0 t104102_c1_4'>2,710</td>
+<td headers='t104102_h_1 t104102_c1_4'>2,758</td>
+<td headers='t104102_h_2 t104102_c1_4'>2,801</td>
+<td headers='t104102_h_3 t104102_c1_4'>2,844</td>
+<td headers='t104102_h_4 t104102_c1_4'>2,880</td>
+<td headers='t104102_h_5 t104102_c1_4'>2,903</td>
+<td headers='t104102_h_6 t104102_c1_4'>2,925</td>
+<td headers='t104102_h_7 t104102_c1_4'>2,943</td>
+<td headers='t104102_h_8 t104102_c1_4'>2,948</td>
+<td headers='t104102_h_9 t104102_c1_4'>2,955</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_5' colspan='1' rowspan='1'>광주</th>
+	<td headers='t104102_h_0 t104102_c1_5'>1,433</td>
+<td headers='t104102_h_1 t104102_c1_5'>1,455</td>
+<td headers='t104102_h_2 t104102_c1_5'>1,463</td>
+<td headers='t104102_h_3 t104102_c1_5'>1,469</td>
+<td headers='t104102_h_4 t104102_c1_5'>1,473</td>
+<td headers='t104102_h_5 t104102_c1_5'>1,476</td>
+<td headers='t104102_h_6 t104102_c1_5'>1,472</td>
+<td headers='t104102_h_7 t104102_c1_5'>1,469</td>
+<td headers='t104102_h_8 t104102_c1_5'>1,463</td>
+<td headers='t104102_h_9 t104102_c1_5'>1,459</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_6' colspan='1' rowspan='1'>대전</th>
+	<td headers='t104102_h_0 t104102_c1_6'>1,484</td>
+<td headers='t104102_h_1 t104102_c1_6'>1,504</td>
+<td headers='t104102_h_2 t104102_c1_6'>1,516</td>
+<td headers='t104102_h_3 t104102_c1_6'>1,525</td>
+<td headers='t104102_h_4 t104102_c1_6'>1,533</td>
+<td headers='t104102_h_5 t104102_c1_6'>1,532</td>
+<td headers='t104102_h_6 t104102_c1_6'>1,518</td>
+<td headers='t104102_h_7 t104102_c1_6'>1,514</td>
+<td headers='t104102_h_8 t104102_c1_6'>1,502</td>
+<td headers='t104102_h_9 t104102_c1_6'>1,490</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_7' colspan='1' rowspan='1'>울산</th>
+	<td headers='t104102_h_0 t104102_c1_7'>1,114</td>
+<td headers='t104102_h_1 t104102_c1_7'>1,126</td>
+<td headers='t104102_h_2 t104102_c1_7'>1,136</td>
+<td headers='t104102_h_3 t104102_c1_7'>1,147</td>
+<td headers='t104102_h_4 t104102_c1_7'>1,156</td>
+<td headers='t104102_h_5 t104102_c1_7'>1,166</td>
+<td headers='t104102_h_6 t104102_c1_7'>1,173</td>
+<td headers='t104102_h_7 t104102_c1_7'>1,172</td>
+<td headers='t104102_h_8 t104102_c1_7'>1,165</td>
+<td headers='t104102_h_9 t104102_c1_7'>1,156</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_8' colspan='1' rowspan='1'>세종</th>
+	<td headers='t104102_h_0 t104102_c1_8'>-</td>
+<td headers='t104102_h_1 t104102_c1_8'>-</td>
+<td headers='t104102_h_2 t104102_c1_8'>-</td>
+<td headers='t104102_h_3 t104102_c1_8'>113</td>
+<td headers='t104102_h_4 t104102_c1_8'>122</td>
+<td headers='t104102_h_5 t104102_c1_8'>156</td>
+<td headers='t104102_h_6 t104102_c1_8'>210</td>
+<td headers='t104102_h_7 t104102_c1_8'>243</td>
+<td headers='t104102_h_8 t104102_c1_8'>280</td>
+<td headers='t104102_h_9 t104102_c1_8'>314</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_9' colspan='1' rowspan='1'>경기</th>
+	<td headers='t104102_h_0 t104102_c1_9'>11,460</td>
+<td headers='t104102_h_1 t104102_c1_9'>11,787</td>
+<td headers='t104102_h_2 t104102_c1_9'>11,937</td>
+<td headers='t104102_h_3 t104102_c1_9'>12,093</td>
+<td headers='t104102_h_4 t104102_c1_9'>12,235</td>
+<td headers='t104102_h_5 t104102_c1_9'>12,358</td>
+<td headers='t104102_h_6 t104102_c1_9'>12,522</td>
+<td headers='t104102_h_7 t104102_c1_9'>12,716</td>
+<td headers='t104102_h_8 t104102_c1_9'>12,873</td>
+<td headers='t104102_h_9 t104102_c1_9'>13,077</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_10' colspan='1' rowspan='1'>강원</th>
+	<td headers='t104102_h_0 t104102_c1_10'>1,512</td>
+<td headers='t104102_h_1 t104102_c1_10'>1,530</td>
+<td headers='t104102_h_2 t104102_c1_10'>1,536</td>
+<td headers='t104102_h_3 t104102_c1_10'>1,539</td>
+<td headers='t104102_h_4 t104102_c1_10'>1,542</td>
+<td headers='t104102_h_5 t104102_c1_10'>1,544</td>
+<td headers='t104102_h_6 t104102_c1_10'>1,549</td>
+<td headers='t104102_h_7 t104102_c1_10'>1,550</td>
+<td headers='t104102_h_8 t104102_c1_10'>1,550</td>
+<td headers='t104102_h_9 t104102_c1_10'>1,543</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_11' colspan='1' rowspan='1'>충북</th>
+	<td headers='t104102_h_0 t104102_c1_11'>1,527</td>
+<td headers='t104102_h_1 t104102_c1_11'>1,549</td>
+<td headers='t104102_h_2 t104102_c1_11'>1,563</td>
+<td headers='t104102_h_3 t104102_c1_11'>1,566</td>
+<td headers='t104102_h_4 t104102_c1_11'>1,573</td>
+<td headers='t104102_h_5 t104102_c1_11'>1,579</td>
+<td headers='t104102_h_6 t104102_c1_11'>1,583</td>
+<td headers='t104102_h_7 t104102_c1_11'>1,591</td>
+<td headers='t104102_h_8 t104102_c1_11'>1,594</td>
+<td headers='t104102_h_9 t104102_c1_11'>1,599</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_12' colspan='1' rowspan='1'>충남</th>
+	<td headers='t104102_h_0 t104102_c1_12'>2,037</td>
+<td headers='t104102_h_1 t104102_c1_12'>2,075</td>
+<td headers='t104102_h_2 t104102_c1_12'>2,101</td>
+<td headers='t104102_h_3 t104102_c1_12'>2,029</td>
+<td headers='t104102_h_4 t104102_c1_12'>2,048</td>
+<td headers='t104102_h_5 t104102_c1_12'>2,062</td>
+<td headers='t104102_h_6 t104102_c1_12'>2,077</td>
+<td headers='t104102_h_7 t104102_c1_12'>2,096</td>
+<td headers='t104102_h_8 t104102_c1_12'>2,116</td>
+<td headers='t104102_h_9 t104102_c1_12'>2,126</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_13' colspan='1' rowspan='1'>전북</th>
+	<td headers='t104102_h_0 t104102_c1_13'>1,854</td>
+<td headers='t104102_h_1 t104102_c1_13'>1,869</td>
+<td headers='t104102_h_2 t104102_c1_13'>1,874</td>
+<td headers='t104102_h_3 t104102_c1_13'>1,873</td>
+<td headers='t104102_h_4 t104102_c1_13'>1,873</td>
+<td headers='t104102_h_5 t104102_c1_13'>1,872</td>
+<td headers='t104102_h_6 t104102_c1_13'>1,869</td>
+<td headers='t104102_h_7 t104102_c1_13'>1,864</td>
+<td headers='t104102_h_8 t104102_c1_13'>1,854</td>
+<td headers='t104102_h_9 t104102_c1_13'>1,837</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_14' colspan='1' rowspan='1'>전남</th>
+	<td headers='t104102_h_0 t104102_c1_14'>1,913</td>
+<td headers='t104102_h_1 t104102_c1_14'>1,918</td>
+<td headers='t104102_h_2 t104102_c1_14'>1,914</td>
+<td headers='t104102_h_3 t104102_c1_14'>1,910</td>
+<td headers='t104102_h_4 t104102_c1_14'>1,907</td>
+<td headers='t104102_h_5 t104102_c1_14'>1,906</td>
+<td headers='t104102_h_6 t104102_c1_14'>1,908</td>
+<td headers='t104102_h_7 t104102_c1_14'>1,903</td>
+<td headers='t104102_h_8 t104102_c1_14'>1,896</td>
+<td headers='t104102_h_9 t104102_c1_14'>1,883</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_15' colspan='1' rowspan='1'>경북</th>
+	<td headers='t104102_h_0 t104102_c1_15'>2,669</td>
+<td headers='t104102_h_1 t104102_c1_15'>2,690</td>
+<td headers='t104102_h_2 t104102_c1_15'>2,699</td>
+<td headers='t104102_h_3 t104102_c1_15'>2,698</td>
+<td headers='t104102_h_4 t104102_c1_15'>2,699</td>
+<td headers='t104102_h_5 t104102_c1_15'>2,701</td>
+<td headers='t104102_h_6 t104102_c1_15'>2,702</td>
+<td headers='t104102_h_7 t104102_c1_15'>2,700</td>
+<td headers='t104102_h_8 t104102_c1_15'>2,691</td>
+<td headers='t104102_h_9 t104102_c1_15'>2,677</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_16' colspan='1' rowspan='1'>경남</th>
+	<td headers='t104102_h_0 t104102_c1_16'>3,250</td>
+<td headers='t104102_h_1 t104102_c1_16'>3,291</td>
+<td headers='t104102_h_2 t104102_c1_16'>3,309</td>
+<td headers='t104102_h_3 t104102_c1_16'>3,319</td>
+<td headers='t104102_h_4 t104102_c1_16'>3,333</td>
+<td headers='t104102_h_5 t104102_c1_16'>3,350</td>
+<td headers='t104102_h_6 t104102_c1_16'>3,364</td>
+<td headers='t104102_h_7 t104102_c1_16'>3,373</td>
+<td headers='t104102_h_8 t104102_c1_16'>3,380</td>
+<td headers='t104102_h_9 t104102_c1_16'>3,374</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t104102_c1_17' colspan='1' rowspan='1'>제주</th>
+	<td headers='t104102_h_0 t104102_c1_17'>562</td>
+<td headers='t104102_h_1 t104102_c1_17'>571</td>
+<td headers='t104102_h_2 t104102_c1_17'>576</td>
+<td headers='t104102_h_3 t104102_c1_17'>584</td>
+<td headers='t104102_h_4 t104102_c1_17'>593</td>
+<td headers='t104102_h_5 t104102_c1_17'>607</td>
+<td headers='t104102_h_6 t104102_c1_17'>624</td>
+<td headers='t104102_h_7 t104102_c1_17'>641</td>
+<td headers='t104102_h_8 t104102_c1_17'>657</td>
+<td headers='t104102_h_9 t104102_c1_17'>667</td>
+
+				</tr>
+			
+		</tbody>
+	</table>
+	<br>
+	
+	
+	
+	
+</html>
