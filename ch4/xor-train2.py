@@ -9,8 +9,8 @@ xor_input = [
 ]
 # 입력을 학습 전용 데이터와 테스트 전용 데이터로 분류하기 --- (※1)
 xor_df = pd.DataFrame(xor_input)
-xor_data  = xor_df.ix[:,0:1] # 데이터
-xor_label = xor_df.ix[:,2]   # 레이블
+xor_data  = xor_df.loc[:,0:1] # 데이터
+xor_label = xor_df.loc[:,2]   # 레이블
 # 데이터 학습과 예측하기 --- (※2)
 clf = svm.SVC()
 clf.fit(xor_data, xor_label)

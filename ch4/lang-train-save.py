@@ -1,5 +1,5 @@
 from sklearn import svm 
-from sklearn.externals import joblib
+import joblib
 import json
 # 각 언어의 출현 빈도 데이터(JSON) 읽어 들이기
 with open("./lang/freq.json", "r", encoding="utf-8") as fp:
