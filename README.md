@@ -16,7 +16,7 @@ gensim==4.0.1
 - 시스템
   - CPU: Intel i9
   - GPU: NVIDIA GeForce RTX 2080 Ti
-  - OS: Windows 10 Home (책에 소개한 우분투 가상환경 사용하지 않음)
+  - OS: Windows 10 Home
 
 
 ## 다운로드
