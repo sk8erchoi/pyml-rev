@@ -1,10 +1,13 @@
-import sys, os, re, time
+import os, re, time
 import urllib.request as req
 import urllib.parse as parse
 import json
+
 # API의 URL 지정하기
 PHOTOZOU_API = "https://api.photozou.jp/rest/search_public.json"
 CACHE_DIR = "./image/cache"
+
+
 # 포토주 API로 이미지 검색하기 --- (※1)
 def search_photo(keyword, offset=0, limit=100):
     # API 쿼리 조합하기
@@ -21,6 +24,8 @@ def search_photo(keyword, offset=0, limit=100):
     req.urlretrieve(url, cache)
     time.sleep(1) # --- 1초 쉬기
     return json.load(open(cache, "r", encoding="utf-8"))
+
+
 # 이미지 다운로드하기 --- (※2)
 def download_thumb(info, save_dir):
     if not os.path.exists(save_dir): os.makedirs(save_dir)
@@ -41,8 +46,10 @@ def download_thumb(info, save_dir):
             time.sleep(1) # --- 1초 쉬기
         except Exception as e:
             print("[ERROR] failed to downlaod url=", url)
+
+
 # 모두 검색하고 다운로드하기 --- (※3)
-def download_all(keyword, save_dir, maxphoto = 1000):
+def download_all(keyword, save_dir, maxphoto=1000):
     offset = 0
     limit = 100
     while True:
@@ -61,6 +68,8 @@ def download_all(keyword, save_dir, maxphoto = 1000):
         download_thumb(info, save_dir)
         offset += limit
         if offset >= maxphoto: break
+
+
 if __name__ == '__main__':
     # 모듈로 사용할 수 있게 설정
-    download_all(" ", "./image/gyudon") # --- (※4)
+    download_all("牛丼", "./image/gyudon")  # --- (※4)
