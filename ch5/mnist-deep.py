@@ -1,5 +1,9 @@
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data 
+
+# 이 예제는 텐서플로 1.14에서 작동합니다.
+# 텐서플로 2.X 환경은 keras-mnist.py 예제를 참고하시기 바랍니다.
+
 # MNIST 손글씨 이미지 데이터 읽어 들이기 --- (※1)
 mnist = input_data.read_data_sets("mnist/", one_hot=True)
 pixels = 28 * 28 # 28x28 픽셀
@@ -71,9 +75,9 @@ def set_feed(images, labels, prob):
     return {x: images, y_: labels, keep_prob: prob}
 # 세션 시작하기 --- (※16)
 with tf.Session() as sess:
-    sess.run(tf.tf.global_variables_initializer())
+    sess.run(tf.global_variables_initializer())
     # TensorBoard 준비하기
-    tw = tf.train.SummaryWriter('log_dir', graph=sess.graph)
+    tw = tf.summary.FileWriter('log_dir', graph=sess.graph)
     # 테스트 전용 피드 만들기
     test_fd = set_feed(mnist.test.images, mnist.test.labels, 1)
     # 학습 시작하기 ---- (※17)
