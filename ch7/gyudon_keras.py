@@ -14,8 +14,8 @@ image_size = 50
 
 # 데이터 다운로드하기 --- (※1)
 def main():
-    #X_train, X_test, y_train, y_test = np.load("./image/gyudon.npy")
-    X_train, X_test, y_train, y_test = np.load("./image/gyudon2.npy")
+    X_train, X_test, y_train, y_test = np.load("./image/gyudon.npy", allow_pickle=True)
+    #X_train, X_test, y_train, y_test = np.load("./image/gyudon2.npy", allow_pickle=True))
     # 데이터 정규화하기
     X_train = X_train.astype("float") / 256
     X_test  = X_test.astype("float")  / 256
