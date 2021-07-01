@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+
+tf.compat.v1.disable_eager_execution()
 
 # 키, 몸무게, 레이블이 적힌 CSV 파일 읽어 들이기
 csv = pd.read_csv("bmi.csv")
@@ -45,8 +47,8 @@ with tf.name_scope('accuracy') as scope:
 
 # 세션 시작하기
 with tf.Session() as sess:
-    tw = tf.train.SummaryWriter("log_dir", graph=sess.graph)
-    sess.run(tf.initialize_all_variables()) # 변수 초기화하기
+    tw = tf.summary.FileWriter("log_dir", graph=sess.graph)
+    sess.run(tf.global_variables_initializer()) # 변수 초기화하기
     # 테스트 데이터를 이용해 학습하기
     for step in range(3500):
         i = (step * 100) % 14000

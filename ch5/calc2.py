@@ -1,5 +1,8 @@
 # TensorFlow 읽어 들이기 --- (※1)
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+
+tf.compat.v1.disable_eager_execution()
+
 # 상수 정의하기 --- (※2)
 a = tf.constant(2)
 b = tf.constant(3)

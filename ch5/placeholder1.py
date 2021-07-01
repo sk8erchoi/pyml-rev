@@ -1,4 +1,7 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+
+tf.compat.v1.disable_eager_execution()
+
 # 플레이스홀더 정의하기 --- (※1)
 a = tf.placeholder(tf.int32, [3]) # 정수 자료형 3개를 가진 배열
 # 배열을 모든 값을 2배하는 연산 정의하기 --- (※2)

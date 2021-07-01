@@ -1,4 +1,7 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+
+tf.compat.v1.disable_eager_execution()
+
 # 상수 정의하기 --- (※1)
 a = tf.constant(120, name="a")
 b = tf.constant(130, name="b")

@@ -1,6 +1,9 @@
 import pandas as pd
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+
+tf.compat.v1.disable_eager_execution()
+
 # 키, 몸무게, 레이블이 적힌 CSV 파일 읽어 들이기 --- (※1)
 csv = pd.read_csv("bmi.csv")
 # 데이터 정규화 --- (※2)
@@ -32,7 +35,7 @@ predict = tf.equal(tf.argmax(y, 1), tf.argmax(y_,1))
 accuracy = tf.reduce_mean(tf.cast(predict, tf.float32))
 # 세션 시작하기
 sess = tf.Session()
-sess.run(tf.tf.global_variables_initializer()) # 변수 초기화하기
+sess.run(tf.global_variables_initializer()) # 변수 초기화하기
 # 학습시키기
 for step in range(3500):
     i = (step * 100) % 14000

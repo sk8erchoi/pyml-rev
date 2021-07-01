@@ -1,4 +1,7 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+
+tf.compat.v1.disable_eager_execution()
+
 # 플레이스홀더 정의하기 --- (※1)
 a = tf.placeholder(tf.int32, [None]) # 배열의 크기를 None으로 지정
 # 배열의 모든 값을 10배하는 연산 정의하기 
