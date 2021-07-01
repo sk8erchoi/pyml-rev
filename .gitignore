@@ -119,4 +119,4 @@ dmypy.json
 /ch1/docs.python.org/
 /ch4/mnist/*
 /ch5/log_dir/
-/ch5_tf2/log_dir/
+/ch5/mnist/
