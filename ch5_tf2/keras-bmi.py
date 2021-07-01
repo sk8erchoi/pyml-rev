@@ -7,7 +7,7 @@ csv = pd.read_csv("bmi.csv")
 # 몸무게와 키 데이터
 csv["weight"] /= 100
 csv["height"] /= 200
-X = csv[["weight", "height"]].values  # --- (※1a)
+X = csv[["weight", "height"]]  # --- (※1a)
 # 레이블
 bclass = {"thin":[1,0,0], "normal":[0,1,0], "fat":[0,0,1]}
 y = np.empty((20000,3))
