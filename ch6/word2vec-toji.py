@@ -30,6 +30,6 @@ with open(gubun_file, 'w', encoding='utf-8') as fp:
 # Word2Vec 모델 만들기 --- (※5)
 data = word2vec.LineSentence(gubun_file)
 model = word2vec.Word2Vec(data, 
-    size=200, window=10, hs=1, min_count=2, sg=1)
+    vector_size=200, window=10, hs=1, min_count=2, sg=1)
 model.save("toji.model")
 print("ok")
