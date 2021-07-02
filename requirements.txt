@@ -22,4 +22,4 @@ konlpy
 jpype1
 gensim==4.0.1
 Pillow
-opencv-python
+opencv-python==4.5.2.54

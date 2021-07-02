@@ -9,7 +9,7 @@ blur = cv2.GaussianBlur(gray, (5, 5), 0)
 thresh = cv2.adaptiveThreshold(blur, 255, 1, 1, 11, 2)
 # 윤곽 추출하기 --- (※3)
 contours = cv2.findContours(
-  thresh, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)[1]
+  thresh, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)[0]
 # 추출한 윤곽을 반복 처리하기 --- (※4)
 for cnt in contours:
   x, y, w, h = cv2.boundingRect(cnt) # --- (※5)

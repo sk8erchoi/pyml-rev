@@ -5,7 +5,7 @@ import ocr_mnist
 
 # MNIST 학습 데이터 읽어 들이기 --- (※1)
 mnist = ocr_mnist.build_model()
-mnist.load_weights('mnist.hdf5')
+mnist.load_weights('font_draw.hdf5')
 # 이미지 읽어 들이기 --- (※2)
 im = cv2.imread('numbers100.PNG')
 # 윤곽 추출하기 --- (※3)
@@ -33,7 +33,7 @@ for i, r in enumerate(rects):
     num = gray[y:y+h, x:x+w] # 부분 이미지 추출하기
     num = 255 - num # 반전하기
     # 정사각형 내부에 그림 옮기기
-    ww = round((w if w > h else h) * 1.85) 
+    ww = round((w if w > h else h) * 1.2)
     spc = np.zeros((ww, ww))
     wy = (ww-h)//2
     wx = (ww-w)//2
