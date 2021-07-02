@@ -116,6 +116,7 @@ dmypy.json
 # ex
 /.idea/
 /.vagrant/
+/ch1/*.png
 /ch1/docs.python.org/
 /ch4/mnist/*
 /ch5/log_dir/
