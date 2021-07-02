@@ -17,9 +17,9 @@
 
 ## 실습 환경 구축 방법
 
-### 옵션 1: 가상 머신을 이용하지 않고 실습 환경 구축
+### 옵션 1: 가상 머신을 사용하지 않고 실습
 
-가상 환경 없이 컴퓨터에 직접 실습 환경을 구축하려면 다음 순서를 따릅니다.
+가상 머신 없이 컴퓨터에 직접 실습 환경을 구축하려면 다음 순서를 따릅니다.
   1. 예제 코드 다운로드
   1. [아나콘다](https://www.anaconda.com/) 설치
   1. 터미널(또는 명령 프롬프트)에서 예제 코드 폴더로 가서 파이썬 패키지 설치 후 실습.  
@@ -30,7 +30,7 @@
      ```
   1. 텐서플로 작동 테스트
      ```
-     python3 -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+     python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
      ```
 
   1. 예제 코드 실행
@@ -39,21 +39,21 @@
      > python3 download-png1.py
      ```
 
-### 옵션 2: Vagrant 가상 환경 구축 후 실습
+### 옵션 2: Vagrant 가상 머신 사용
 
-책에 소개한 우분투 가상 환경을 구축하려면 다음 순서를 따릅니다.
+Vagrant를 이용해 우분투 가상 머신에 실습 환경을 구축하려면 다음 순서를 따릅니다.
 
   1. 예제 코드 다운로드  
   1. [VirtualBox](https://www.virtualbox.org/) 설치
   1. [Vagrant](https://www.vagrantup.com/) 설치
-  1. 터미널에서 예제 코드 폴더(`Varantfile`이 있는 곳)로 가서 `vagrant up` 실행(실습에 필요한 프로그램과 파이썬 패키지가 자동으로 설치됨).  
+  1. 터미널에서 예제 코드 폴더(`Vagrantfile`이 있는 곳)로 가서 `vagrant up` 실행(실습에 필요한 프로그램과 파이썬 패키지가 자동으로 설치됨).  
      예:
      ```
      > cd C:\pyml-rev
      > vagrant up
      ```
      (문제 해결: Windows 호스트에서 게스트 창 하단에 녹색 거북이가 보이는 경우 https://blog.koasing.pe.kr/hyper-v-vbox-nem/ 참조)
-  1. 터미널에서 SSH로 가상 환경에 연결  
+  1. 터미널에서 SSH로 가상 머신에 연결  
      ```
      > vagrant ssh
      ```
@@ -77,5 +77,5 @@
      
 ### 옵션 3: 도커 가상 환경
 
-책의 부록과 [영상](https://youtu.be/l_XFlB1Wwz8) 참조.
+도커를 이용해 실습 환경을 구축하려면 책의 부록과 [영상](https://youtu.be/l_XFlB1Wwz8) 참조.
 
