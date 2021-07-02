@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import urllib.request as req
 # HTML 가져오기
-url = "http://info.finance.naver.com/marketindex/"
+url = "http://finance.naver.com/marketindex/"
 res = req.urlopen(url)
 # HTML 분석하기
 soup = BeautifulSoup(res, "html.parser")
