@@ -3,7 +3,7 @@ import sys
 # 입력 파일 지정하기
 image_file = "./pakutas/photo1.jpg"
 # 캐스케이드 파일의 경로 지정하기 --- (※1)
-cascade_file = "haarcascade_frontalface_alt.xml"
+cascade_file = cv2.data.haarcascades + "haarcascade_frontalface_alt.xml"
 # 이미지 읽어 들이기 --- (※2)
 image = cv2.imread(image_file)
 # 그레이스케일로 변환하기
@@ -23,6 +23,7 @@ if len(face_list) > 0:
         x,y,w,h = face
         cv2.rectangle(image, (x,y), (x+w, y+h), color, thickness=8)
     # 파일로 출력하기 --- (※5)
-    cv2.imwrite("facedetect-output.PNG", image)
+    #cv2.imwrite("facedetect-output.PNG", image)
+    cv2.imwrite("./pakutas/photo1-facedetect.PNG", image)
 else:
     print("no face")
