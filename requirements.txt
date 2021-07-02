@@ -1,4 +1,4 @@
-beautifulsoup4
+beautifulsoup4==4.6.0
 requests
 selenium
 Scrapy
@@ -14,11 +14,11 @@ matplotlib==3.3.4
 scikit-image
 numpy==1.19.5
 tensorflow==2.4.0
-h5py
+h5py==2.10.0
 graphviz
 pydot
 jupyter
-konlpy
+konlpy==0.5.2
 jpype1
 gensim==4.0.1
 Pillow
