@@ -12,11 +12,11 @@ login_info = {
     "m_id": USER,  # 아이디 지정
     "m_passwd": PASS  # 비밀번호 지정
 }
-url_login = "http://www.hanbit.co.kr/member/login_proc.php"
+url_login = "https://www.hanbit.co.kr/member/login_proc.php"
 res = session.post(url_login, data=login_info)
 res.raise_for_status() # 오류가 발생하면 예외가 발생합니다.
 # 마이페이지에 접근하기 --- (※4)
-url_mypage = "http://www.hanbit.co.kr/myhanbit/myhanbit.html" 
+url_mypage = "https://www.hanbit.co.kr/myhanbit/myhanbit.html"
 res = session.get(url_mypage)
 res.raise_for_status()
 # 마일리지와 이코인 가져오기 --- (※5)
