@@ -119,6 +119,7 @@ dmypy.json
 /ch1/*.png
 /ch1/docs.python.org/
 /ch2/*.png
+/ch2/geckodriver.*
 /ch4/mnist/*
 /ch5/log_dir/
 /ch5/mnist/
