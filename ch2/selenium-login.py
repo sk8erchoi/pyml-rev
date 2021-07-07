@@ -5,7 +5,7 @@ PASS = "<비밀번호>"
 
 # Firefox 실행하기 --- (※1)
 options = FirefoxOptions()
-options.add_argument('-headless')
+#options.add_argument('-headless')
 browser = Firefox(options=options)
 
 # 로그인 페이지에 접근하기 --- (※2)
@@ -30,7 +30,7 @@ print("로그인 버튼을 클릭합니다.")
 browser.get("https://order.pay.naver.com/home?tabMenu=SHOPPING")
 
 # 쇼핑 목록 출력하기 --- (※6)
-products = browser.find_elements_by_css_selector(".p_info span")
+products = browser.find_elements_by_css_selector(".name")
 print(products)
 for product in products:
   print("-", product.text)
