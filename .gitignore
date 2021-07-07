@@ -118,6 +118,7 @@ dmypy.json
 /.vagrant/
 /ch1/*.png
 /ch1/docs.python.org/
+/ch2/*.png
 /ch4/mnist/*
 /ch5/log_dir/
 /ch5/mnist/
