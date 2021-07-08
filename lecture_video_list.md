@@ -35,6 +35,6 @@
 | 윤인성 | [머신러닝, 딥러닝 실전 개발 입문 32강 - 이미지를 벡터로 변환하기[1]](https://www.youtube.com/watch?v=NgwYlkBBDkU) | 7-1 | |
 | 윤인성 | [머신러닝, 딥러닝 실전 개발 입문 33강 - 이미지를 벡터로 변환하기[2]](https://www.youtube.com/watch?v=DtHT65zmXik) | 7-2 | |
 | 윤인성 | [머신러닝, 딥러닝 실전 개발 입문 34강 - 이미지를 벡터로 변환하기[3]](https://www.youtube.com/watch?v=GhK5obfE9Kw) | 7-2 | |
-| 윤인성 | [머신러닝, 딥러닝 실전 개발 입문 버전 대응 1강 - Selenium과 ChromeDriver](https://www.youtube.com/watch?v=9164BXkMofs) | 2-2 | |
+| 윤인성 | [머신러닝, 딥러닝 실전 개발 입문 버전 대응 1강 - Selenium과 ChromeDriver](https://www.youtube.com/watch?v=9164BXkMofs) | 2-2 | 2018.2.22. 업로드|
 | 최용 | [Vagrant와 VirtualBox로 딥러닝 실습 환경(Ubuntu 가상머신) 구축(1)](https://www.youtube.com/watch?v=4rQVaYzQ8K4) | 부록-1 | 2021.7.4. 업로드 |
 | 최용 | [Vagrant와 VirtualBox로 딥러닝 실습 환경(Ubuntu 가상머신) 구축(2)](https://www.youtube.com/watch?v=MtH1EkkF_pQ) | 부록-1 | |
