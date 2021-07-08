@@ -1,3 +1,9 @@
+# 네이버 로그인 절차가 강화되어 자동입력 방지문자(Captcha)를 입력해야 로그인할 수 있습니다.
+# 따라서 파이썬 셸이나 주피터 노트북(5-3절에서 설명)에서 비밀번호 입력까지만 실행하고
+# 자동입력 방지문자는 브라우저 창에서 수작업으로 입력 후 나머지 코드를 이어서 실행하시기 바랍니다.
+
+# Step 1
+
 from selenium.webdriver import Firefox, FirefoxOptions
 
 USER = "<아이디>"
@@ -20,6 +26,14 @@ e.send_keys(USER)
 e = browser.find_element_by_id("pw")
 e.clear()
 e.send_keys(PASS)
+
+########################################################
+# Step 2
+# 브라우저 창에서 자동입력 방지문자를 입력해주세요.
+
+
+########################################################
+# Step 3
 
 # 입력 양식 전송해서 로그인하기 --- (※4)
 form = browser.find_element_by_css_selector("input.btn_global[type=submit]")
