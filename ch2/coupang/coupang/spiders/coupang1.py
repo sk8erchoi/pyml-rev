@@ -33,10 +33,13 @@ class CoupangSpider(scrapy.Spider):
   
   def parse(self, response):
     # 원하는 정보 추출하기 --- (※4)
-    items = response.css('.my-order-unit__item-info')
+    #items = response.css('.my-order-unit__item-info')
+    items = response.css('.sc-9cwg9-6')
     for item in items:
-      title = item.css(".my-order-unit__info-name strong:last-child::text").extract_first().strip()
-      info = item.css(".my-order-unit__info-ea::text").extract_first().split("/")[0].strip()
+      #title = item.css(".my-order-unit__info-name strong:last-child::text").extract_first().strip()
+      title = item.css(".sc-755zt3-1::text").extract_first().strip()
+      #info = item.css(".my-order-unit__info-ea::text").extract_first().split("/")[0].strip()
+      info = item.css(".sc-755zt3-0::text").extract_first().split("/")[0].strip()
       yield {
         "title": title,
         "info": info
