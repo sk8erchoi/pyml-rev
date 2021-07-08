@@ -120,7 +120,9 @@ dmypy.json
 /ch1/docs.python.org/
 /ch2/*.png
 /ch2/geckodriver.*
+/ch2/city.list.*
 /ch4/mnist/*
 /ch5/log_dir/
 /ch5/mnist/
 /ch7/image/
+
