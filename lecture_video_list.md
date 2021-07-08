@@ -21,7 +21,7 @@
 | 윤인성 | [머신러닝, 딥러닝 실전 개발 입문 18강 - 연습 4.4절 언어 구분 학습(1)](https://www.youtube.com/watch?v=TM84SRPNUk4) | 4-4 | |
 | 윤인성 | [머신러닝, 딥러닝 실전 개발 입문 19강 - 연습 4.4절 언어 구분 학습(2)](https://www.youtube.com/watch?v=lyqo4CC7a-4) | 4-4 | |
 | 윤인성 | [머신러닝, 딥러닝 실전 개발 입문 20강 - Classifier](https://www.youtube.com/watch?v=mH6Y3VHBhJI) | 4-5 | |
-| 윤인성 | [머신러닝, 딥러닝 실전 개발 입문 21강 - 질문답변](https://www.youtube.com/watch?v=6WyjiwplIVI) | | | 
+| 윤인성 | [머신러닝, 딥러닝 실전 개발 입문 21강 - 질문답변](https://www.youtube.com/watch?v=6WyjiwplIVI) | 4-4 | | 
 | 윤인성 | [머신러닝, 딥러닝 실전 개발 입문 22강 - 분류 변수와 연속 변수](https://www.youtube.com/watch?v=tP0Sz_itit0) | 4-6 | |
 | 윤인성 | [머신러닝, 딥러닝 실전 개발 입문 23강 - Tensorflow와 Keras 설치](https://www.youtube.com/watch?v=vLgtE11nrWo) | 5-1 | 텐서플로 1.2 버전 사용 |
 | 윤인성 | [머신러닝, 딥러닝 실전 개발 입문 24강 - Keras 기본](https://www.youtube.com/watch?v=_eIGBgJkr0M) | 5-7 | |
