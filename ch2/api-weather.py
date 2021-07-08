@@ -7,7 +7,7 @@ cities = ["Seoul,KR", "Tokyo,JP", "New York,US"]
 # API 지정 --- (※3)
 api = "http://api.openweathermap.org/data/2.5/weather?q={city}&APPID={key}"
 # 켈빈 온도를 섭씨 온도로 변환하는 함수 --- (※4)
-k2c = lambda k: k - 273.15
+k2c = lambda k: round(k - 273.15, 1)
 # 각 도시의 정보 추출하기 --- (※5)
 for name in cities:
     # API의 URL 구성하기 --- (※6)
