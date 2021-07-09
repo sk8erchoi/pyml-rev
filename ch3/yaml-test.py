@@ -1,4 +1,6 @@
 import yaml
+
+
 # YAML 정의하기 ---- (※1)
 yaml_str = """
 Date: 2017-03-10
@@ -19,8 +21,11 @@ PriceList:
         color: red
         price: 2400
 """
+
 # YAML 분석하기 --- (※2)
-data = yaml.load(yaml_str)
+data = yaml.safe_load(yaml_str)
+
 # 이름과 가격 출력하기 --- (※3)
 for item in data['PriceList']:
     print(item["name"], item["price"])
+

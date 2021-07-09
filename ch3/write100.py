@@ -4,3 +4,4 @@ data = 100
 # 쓰기
 with open(filename, "wb") as f:
     f.write(bytearray([data]))
+
