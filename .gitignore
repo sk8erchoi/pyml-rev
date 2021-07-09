@@ -121,8 +121,9 @@ dmypy.json
 /ch2/*.png
 /ch2/geckodriver.*
 /ch2/city.list.*
+/ch3/*.sqlite
+/ch3/test-tynydb.json
 /ch4/mnist/*
 /ch5/log_dir/
 /ch5/mnist/
 /ch7/image/
-
