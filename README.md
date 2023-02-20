@@ -10,8 +10,8 @@
 
 - 예제 코드
   - 현재 버전
-      - [압축 파일](https://github.com/sk8erchoi/pyml-rev/archive/refs/heads/main.zip) 다운로드  
-         또는 터미널에서 `git clone https://github.com/sk8erchoi/pyml-rev.git` 실행
+      - [압축 파일](https://github.com/wikibook/pyml-rev/archive/refs/heads/main.zip) 다운로드  
+         또는 터미널에서 `git clone https://github.com/wikibook/pyml-rev.git` 실행
   - [구 버전 코드](https://drive.google.com/uc?export=download&id=17YpSzwuQzuR79d48EiNmAu1uCeJwAkX1) (받지 않아도 됩니다.)
 
 - 데이터 파일(1,2,3차 URL 중 하나만 받으시면 됩니다)
