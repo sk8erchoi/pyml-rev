@@ -126,4 +126,5 @@ dmypy.json
 /ch4/mnist/*
 /ch5/log_dir/
 /ch5/mnist/
+/ch6/newstext/
 /ch7/image/

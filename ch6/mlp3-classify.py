@@ -1,10 +1,12 @@
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Activation
-from keras.wrappers.scikit_learn import KerasClassifier
-from keras.utils import np_utils
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, Activation
+from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
+from tensorflow.keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 from sklearn import model_selection, metrics
 import json
+import numpy as np
+
 max_words = 56681 # 입력 단어 수: word-dic.json 파일 참고
 nb_classes = 6 # 6개의 카테고리
 batch_size = 64 
@@ -28,13 +30,14 @@ X = data["X"] # 텍스트를 나타내는 데이터
 Y = data["Y"] # 카테고리 데이터
 # 학습하기 --- (※3)
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y)
-Y_train = np_utils.to_categorical(Y_train, nb_classes)
+Y_train = to_categorical(Y_train, nb_classes)
 print(len(X_train),len(Y_train))
 model = KerasClassifier(
     build_fn=build_model, 
     nb_epoch=nb_epoch, 
     batch_size=batch_size)
-model.fit(X_train, Y_train)
+#model.fit(X_train, Y_train)
+model.fit(np.array(X_train), np.array(Y_train))
 # 예측하기 --- (※4)
 y = model.predict(X_test)
 ac_score = metrics.accuracy_score(Y_test, y)
